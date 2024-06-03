@@ -1,0 +1,117 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background-color: black;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.input{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(118, 194, 118);
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    overflow: hidden;
+}
+
+.pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.numbers{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    background-color: rgb(163, 255, 5);
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.row4{
+    display: block;
+}
+
+.clear{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.equals{
+    background-color: rgb(1, 162, 1);
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.symbol{
+    background-color: rgb(1, 162, 1);
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.number:active, .symbol:active, .equals:active, .clear:active{
+    background-color: rgb(191, 255, 81);
+}
